@@ -210,18 +210,17 @@ a:hover {
     margin-top: 100px;
 
 }
+
 /* Services main grid area*/
 .servicesbreakdown {
     background-color:rgba(114, 113, 113, 0);
     display: grid;
-    max-width: 120px;
+    justify-content: center;
     padding-top: 50px;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
     margin-left: 150px;
     margin-right: 150px;
-
-
 }
 /* Services buttons Column one*/
 .serviceone, .servicetwo, .servicethree {
@@ -440,7 +439,7 @@ iframe {
     
 }
 .englishlevel {
-    width: 60%;
+    width: 70%;
     background-color: rgba(54, 53, 52, 0.24);
     border-radius: 5px;
 }
@@ -457,7 +456,7 @@ iframe {
     
 }
 .russianlevel {
-    width: 70%;
+    width: 85%;
     background-color: rgba(54, 53, 52, 0.24);
     border-radius: 5px;
 }

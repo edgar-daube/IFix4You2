@@ -215,7 +215,7 @@ a:hover {
 .servicesbreakdown {
     background-color:rgba(114, 113, 113, 0);
     display: grid;
-    justify-content: center;
+    
     padding-top: 50px;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
